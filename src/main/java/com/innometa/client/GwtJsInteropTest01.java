@@ -8,7 +8,7 @@ import jsinterop.annotations.JsType;
 
 public class GwtJsInteropTest01 implements EntryPoint {
 
-	@JsType(isNative = true, namespace = JsPackage.GLOBAL)
+	@JsType(isNative = true, namespace = JsPackage.GLOBAL, name="HTMLDivElement")
 	static class HTMLDivElement {
 	}
 	
